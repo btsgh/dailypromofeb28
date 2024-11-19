@@ -27,6 +27,10 @@
     {
       "id": "Page2",
       "isDefault": false
+    },
+    {
+      "id": "Assets.appsmith.com",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
