@@ -1,35 +1,47 @@
 {
-    "boxShadow": "none",
-    "widgetName": "IconButton7",
-    "onClick": "{{getUsers.run(() => getTimeLogs.run(), () => {}); \ngetAllTimeLogs.run();\nstoreValue('updated_at',moment().format('LLL'))}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [
-        {"key": "onClick"},
-        {"key": "borderRadius"}
-    ],
-    "displayName": "Icon Button",
-    "iconSVG": "/static/media/icon.1a0c634a.svg",
-    "topRow": 0,
-    "bottomRow": 5,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 6.53125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 54,
-    "dynamicBindingPathList": [{"key": "buttonColor"}],
-    "isDisabled": false,
-    "key": "iifq91zxtp",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 61,
-    "iconName": "refresh",
-    "widgetId": "zyjsbt4zzy",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "8yytim7cn9",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0.575rem",
-    "buttonVariant": "TERTIARY"
+  "animateLoading": true,
+  "borderRadius": "0.575rem",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "refresh",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "iifq91zxtp",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 54,
+  "onClick": "{{getUsers.run(() => getTimeLogs.run(), () => {}); \ngetAllTimeLogs.run();\nstoreValue('updated_at',moment().format('LLL'))}}",
+  "parentColumnSpace": 6.53125,
+  "parentId": "8yytim7cn9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zyjsbt4zzy",
+  "widgetName": "IconButton7"
 }
